@@ -1,18 +1,18 @@
 package com.thiskeyword;
 
-public class Practice2 {
+public class Demo2 {
 
-    protected Practice2() {
+    protected Demo2() {
     	System.out.println("This is constructor 1");
     }
     
-    Practice2(int a){
+    Demo2(int a){
     	this();
     	System.out.println("This is constructor 2.");
     }
     
     public static void main(String[] args) {
 		
-    	Practice2 p = new Practice2(1);
+    	Demo2 p = new Demo2(1);
 	}
 }
